@@ -1,6 +1,6 @@
 
 bankmake: bank.o
-	g++ bank.o -o bankmake
+	g++ bank.c -o bank.h
     
 main.o: bank.h
 	g++ -c bank.c
